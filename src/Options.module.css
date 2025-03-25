@@ -16,10 +16,13 @@
   border: 1px solid pink;
   border-radius: 10px;
   text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent; /* Changed to transparent */
 }
 
 .option h4 {
-  color: white;
+  color: white; /* Text color remains white */
   margin: 0;
   padding: 0.5em;
   width: 100%;
@@ -27,4 +30,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.option:hover {
+  background-color: rgba(255, 192, 203, 0.2); /* Light pink hover */
+}
+
+.correct {
+  background-color: #4caf50 !important; /* Green for correct */
+  border-color: #45a049;
+}
+
+.incorrect {
+  background-color: #f44336 !important; /* Red for incorrect */
+  border-color: #d32f2f;
 }

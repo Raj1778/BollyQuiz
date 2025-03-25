@@ -14,16 +14,25 @@
 .quizBox {
   display: flex;
   justify-self: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
-  background: linear-gradient(135deg, #B0E298, #E072A4);
-  height: 20em;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+
+  height: 22em;
   width: 30em;
-  margin: 4em;
+  margin: 5em;
   padding: 2em;
   border-radius: 30px;
   font-family: "Akaya Kanadaka", system-ui;
-  padding:1rem;
+  padding: 1rem;
 }
 
-
+.quizResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+}

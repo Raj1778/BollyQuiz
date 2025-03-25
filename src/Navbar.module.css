@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
 .navbar {
-  background: linear-gradient(to right, #e07be0, #932f6d);
+  background: linear-gradient(to right, #ff4e94, #6458ff);
+
   height: 4rem;
   text-align: center;
   padding-top: 1em;
