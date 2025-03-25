@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+.navbar {
+  background: linear-gradient(to right, #e07be0, #932f6d);
+  height: 4rem;
+  text-align: center;
+  padding-top: 1em;
+  color: white;
+  font-family: "Fascinate Inline", system-ui;
+}
+
+.heading {
+  font-size: 2.5rem; /* Bigger text for a stronger gradient effect */
+  font-weight: bold; /* Makes the text stand out */
+  text-transform: uppercase; /* Optional but enhances visibility */
+  background: linear-gradient(90deg, #ecb8a5, #fc60a8, #7a28cb);
+  background-size: 300% 100%; /* Extends gradient for a smoother effect */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 3s infinite alternate; /* Smooth gradient movement */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
