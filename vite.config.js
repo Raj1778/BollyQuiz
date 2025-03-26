@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/BollyQuiz/", // ✅ Your repository name
+  base: "./", // ✅ Change from "/BollyQuiz/" to "./"
 });
