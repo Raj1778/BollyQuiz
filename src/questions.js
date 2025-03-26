@@ -176,8 +176,8 @@ const questions = [
       "Which Rajesh Khanna movie features the dialogue 'Pushpa, I hate tears'?",
     options: [
       { text: "Anand", isCorrect: false },
-      { text: "Kati Patang", isCorrect: true },
-      { text: "Amar Prem", isCorrect: false },
+      { text: "Kati Patang", isCorrect: false },
+      { text: "Amar Prem", isCorrect: true },
       { text: "Bawarchi", isCorrect: false },
     ],
   },
@@ -211,16 +211,7 @@ const questions = [
       { text: "Bodyguard", isCorrect: false },
     ],
   },
-  {
-    question:
-      "Which Sanjay Dutt movie features the famous dialogue 'Munnabhai MBBS, bole toh lapata'?",
-    options: [
-      { text: "Munna Bhai M.B.B.S.", isCorrect: true },
-      { text: "Lage Raho Munna Bhai", isCorrect: false },
-      { text: "Vaastav", isCorrect: false },
-      { text: "Khalnayak", isCorrect: false },
-    ],
-  },
+
   {
     question:
       "Which Rajesh Khanna movie features the dialogue 'Zindagi badi honi chahiye, lambi nahi'?",
@@ -263,11 +254,11 @@ const questions = [
   },
   {
     question:
-      "Which Sanjay Dutt movie features the dialogue 'Mumbai ka king kaun? Bhiku Mhatre!'?",
+      "Which Manoj Bajpayee movie features the dialogue 'Mumbai ka king kaun? Bhiku Mhatre!'?",
     options: [
       { text: "Satya", isCorrect: true },
-      { text: "Vaastav", isCorrect: false },
-      { text: "Khalnayak", isCorrect: false },
+      { text: "Rajneeti", isCorrect: false },
+      { text: "Shool", isCorrect: false },
       { text: "Shootout at Lokhandwala", isCorrect: false },
     ],
   },
@@ -309,15 +300,7 @@ const questions = [
       { text: "Vicky Kaushal", isCorrect: false },
     ],
   },
-  {
-    question: "In *Hera Pheri*, what is Baburao’s famous phone number?",
-    options: [
-      { text: "22222222", isCorrect: false },
-      { text: "42042042", isCorrect: false },
-      { text: "9869707007", isCorrect: true },
-      { text: "1001001001", isCorrect: false },
-    ],
-  },
+
   {
     question:
       "Which Bollywood movie has the hilarious scene *'Utha le re baba, utha le!'*?",
@@ -325,7 +308,7 @@ const questions = [
       { text: "Welcome", isCorrect: false },
       { text: "Hera Pheri", isCorrect: false },
       { text: "Dhamaal", isCorrect: false },
-      { text: "Masti", isCorrect: true },
+      { text: "Phir Hera Pheri", isCorrect: true },
     ],
   },
   {
@@ -454,16 +437,7 @@ const questions = [
       { text: "Akshay Kumar", isCorrect: false },
     ],
   },
-  {
-    question:
-      "What was the *only dialogue* of Suniel Shetty in *Phir Hera Pheri*?",
-    options: [
-      { text: "Kya?", isCorrect: false },
-      { text: "Khaane ke paise alag dene padenge", isCorrect: false },
-      { text: "Bol raha hoon na!", isCorrect: false },
-      { text: "Aree baba, maal kidhar hai?", isCorrect: true },
-    ],
-  },
+
   {
     question:
       "Which of these Bollywood films was a *remake* of *Alaipayuthey* (Tamil)?",
