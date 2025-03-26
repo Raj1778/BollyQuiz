@@ -138,9 +138,9 @@ const questions = [
       "Which Amitabh Bachchan movie features the iconic dialogue *'Rishtey Mein Toh Hum Tumhare Baap Lagte Hain'*?",
     options: [
       { text: "Deewaar", isCorrect: false },
-      { text: "Sholay", isCorrect: true },
+      { text: "Sholay", isCorrect: false },
       { text: "Agneepath", isCorrect: false },
-      { text: "Shahenshah", isCorrect: false },
+      { text: "Shahenshah", isCorrect: true },
     ],
   },
   {
@@ -854,16 +854,7 @@ const questions = [
       { text: "A sleeping demon that awakens every century", isCorrect: false },
     ],
   },
-  {
-    question:
-      "In *12th Fail* (2023), what drives the protagonist to keep trying despite repeated failures?",
-    options: [
-      { text: "His family's unfulfilled dreams", isCorrect: false },
-      { text: "His desire to prove corrupt officials wrong", isCorrect: true },
-      { text: "A secret bet he made with a friend", isCorrect: false },
-      { text: "A prophecy that he will be successful", isCorrect: false },
-    ],
-  },
+
   {
     question: "In *Karthik Calling Karthik*, what is the shocking twist?",
     options: [
