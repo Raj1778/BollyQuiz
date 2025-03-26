@@ -14,18 +14,15 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
   padding: 0 1em;
-  font-size: 1.2rem; /* Base font size */
+  font-size: 1.2rem;
 
-  /* Improved readability and responsiveness */
   line-height: 1.4;
   letter-spacing: 0.5px;
 
-  /* Touch and selection improvements */
   user-select: none;
   touch-action: manipulation;
 }
 
-/* Responsive Styles with Enhanced Mobile Support */
 @media (max-width: 768px) {
   .question {
     font-size: 1.1rem;
@@ -46,7 +43,6 @@
   }
 }
 
-/* Very Small Device Adjustments */
 @media (max-width: 320px) {
   .question {
     font-size: 0.9rem;

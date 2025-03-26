@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
 
 .navbar {
-  position: fixed; /* Changed to fixed */
+  position: fixed;
   top: 0;
   left: 0;
   background: linear-gradient(to right, #ff4e94, #6458ff);
@@ -14,7 +14,7 @@
   font-family: "Fascinate Inline", system-ui;
   width: 100%;
   box-sizing: border-box;
-  z-index: 1000; /* Ensure navbar stays on top */
+  z-index: 1000;
 }
 
 .heading {
