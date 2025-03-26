@@ -1,24 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
-.navbar {
-  background: linear-gradient(to right, #ff4e94, #6458ff);
 
-  height: 4rem;
-  text-align: center;
-  padding-top: 1em;
+.navbar {
+  position: fixed; /* Changed to fixed */
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #ff4e94, #6458ff);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
   color: white;
   font-family: "Fascinate Inline", system-ui;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000; /* Ensure navbar stays on top */
 }
 
 .heading {
-  font-size: 2.5rem; /* Bigger text for a stronger gradient effect */
-  font-weight: bold; /* Makes the text stand out */
-  text-transform: uppercase; /* Optional but enhances visibility */
-  background: linear-gradient(90deg, #FF4D8D 0%, #FFA3C4 50%, #5E17EB 100%);
-  background-size: 300% 100%; /* Extends gradient for a smoother effect */
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff4d8d 0%, #ffa3c4 50%, #5e17eb 100%);
+  background-size: 300% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradientAnimation 3s infinite alternate; /* Smooth gradient movement */
+  animation: gradientAnimation 3s infinite alternate;
+  text-align: center;
+  max-width: 100%;
+  word-wrap: break-word;
 }
 
 @keyframes gradientAnimation {
@@ -27,5 +38,39 @@
   }
   100% {
     background-position: 100% 50%;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    height: 3.75rem;
+    padding: 0 0.75em;
+  }
+
+  .heading {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: 3.5rem;
+    padding: 0 0.5em;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    height: 3.25rem;
+    padding: 0 0.25em;
+  }
+
+  .heading {
+    font-size: 1.75rem;
   }
 }

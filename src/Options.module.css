@@ -1,28 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Fascinate+Inline&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
 .optionsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 3em;
+  gap: 0.75em; /* More consistent spacing */
+  margin: 1em auto;
+  padding: 1em;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .option {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4em;
-  width: 12em;
-  margin: 1em;
+  height: 3.5em;
+  width: calc(50% - 1em); /* Responsive width with gap consideration */
+  max-width: 15em;
+  margin: 0.25em;
   border: 1px solid pink;
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  background-color: transparent; /* Changed to transparent */
+  transition: all 0.3s ease;
+  background-color: transparent;
+  flex-shrink: 0;
+
+  /* Improved touch target */
+  touch-action: manipulation;
+  user-select: none;
 }
 
 .option h4 {
-  color: white; /* Text color remains white */
+  color: white;
   margin: 0;
   padding: 0.5em;
   width: 100%;
@@ -30,18 +43,78 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1rem; /* Base font size */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
-.option:hover {
-  background-color: rgba(255, 192, 203, 0.2); /* Light pink hover */
+.option:hover,
+.option:active {
+  background-color: rgba(255, 192, 203, 0.2);
+  transform: scale(1.02); /* Slight scale on interaction */
 }
 
 .correct {
-  background-color: #4caf50 !important; /* Green for correct */
+  background-color: #4caf50 !important;
   border-color: #45a049;
 }
 
 .incorrect {
-  background-color: #f44336 !important; /* Red for incorrect */
+  background-color: #f44336 !important;
   border-color: #d32f2f;
+}
+
+/* Responsive Styles with Enhanced Mobile Support */
+@media (max-width: 768px) {
+  .optionsContainer {
+    gap: 0.5em;
+    padding: 0.75em;
+  }
+
+  .option {
+    width: calc(50% - 0.5em);
+    height: 3em;
+    margin: 0.2em;
+  }
+
+  .option h4 {
+    font-size: 0.95rem;
+    padding: 0.4em;
+  }
+}
+
+@media (max-width: 480px) {
+  .optionsContainer {
+    gap: 0.4em;
+    padding: 0.5em;
+  }
+
+  .option {
+    width: calc(50% - 0.4em);
+    height: 2.8em;
+    border-radius: 8px;
+  }
+
+  .option h4 {
+    font-size: 0.9rem;
+    padding: 0.3em;
+  }
+}
+
+/* Very Small Device Adjustments */
+@media (max-width: 320px) {
+  .optionsContainer {
+    gap: 0.3em;
+    padding: 0.25em;
+  }
+
+  .option {
+    width: 100%; /* Full width on very small screens */
+    height: 2.5em;
+    margin: 0.15em 0;
+  }
+
+  .option h4 {
+    font-size: 0.85rem;
+  }
 }

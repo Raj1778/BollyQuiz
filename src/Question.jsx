@@ -3,7 +3,7 @@ const Question = ({ question }) => {
   return (
     <>
       <div className={styles.question}>
-        <h2>{question}</h2>
+        <h3>{question}</h3>
       </div>
     </> 
   );
