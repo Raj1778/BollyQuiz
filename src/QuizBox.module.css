@@ -4,11 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://m.media-amazon.com/images/I/C1qmG3fnRpS.png");
-  background-size: cover; /* Ensures the image covers the entire div */
+  background: url("https://pbs.twimg.com/media/GJ_GWFxXcAA9hcO.jpg:large");
+  background-size: cover;
   background-position: center;
-  width: 100%; /* Ensures full width */
+  width: 100%;
   height: 86.3vh;
+  /* New smooth transition property */
 }
 
 .quizBox {
@@ -35,4 +36,14 @@
   flex-direction: column;
   text-align: center;
   padding: 3rem;
+
+}
+
+.restart{
+  background-color: #7873f5;
+  height:10em;
+  width:15em;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }

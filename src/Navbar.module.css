@@ -13,7 +13,7 @@
   font-size: 2.5rem; /* Bigger text for a stronger gradient effect */
   font-weight: bold; /* Makes the text stand out */
   text-transform: uppercase; /* Optional but enhances visibility */
-  background: linear-gradient(90deg, #ecb8a5, #fc60a8, #7a28cb);
+  background: linear-gradient(90deg, #FF4D8D 0%, #FFA3C4 50%, #5E17EB 100%);
   background-size: 300% 100%; /* Extends gradient for a smoother effect */
   -webkit-background-clip: text;
   background-clip: text;
