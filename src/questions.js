@@ -942,6 +942,196 @@ const questions = [
       { text: "Bhoot Police", isCorrect: false },
     ],
   },
+
+  {
+    question:
+      "In *Dil Chahta Hai*, which character is an artist struggling with love and alcoholism?",
+    options: [
+      { text: "Akash", isCorrect: false },
+      { text: "Sameer", isCorrect: false },
+      { text: "Sid", isCorrect: true },
+      { text: "Rohit", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Badtameez Dil'*?",
+    options: [
+      { text: "Yeh Jawaani Hai Deewani", isCorrect: true },
+      { text: "Student of the Year", isCorrect: false },
+      { text: "2 States", isCorrect: false },
+      { text: "Ae Dil Hai Mushkil", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Lagaan*, what was the name of the British officer who challenged the villagers to a cricket match?",
+    options: [
+      { text: "Captain Russell", isCorrect: true },
+      { text: "Andrews", isCorrect: false },
+      { text: "Elizabeth", isCorrect: false },
+      { text: "Major Roberts", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which movie features the dialogue *'Picture abhi baaki hai mere dost'*?",
+    options: [
+      { text: "Om Shanti Om", isCorrect: true },
+      { text: "Don", isCorrect: false },
+      { text: "Dabangg", isCorrect: false },
+      { text: "Race", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Queen*, which city does Rani visit first on her solo honeymoon?",
+    options: [
+      { text: "Paris", isCorrect: true },
+      { text: "Amsterdam", isCorrect: false },
+      { text: "London", isCorrect: false },
+      { text: "Rome", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Galiyan'* by Ankit Tiwari?",
+    options: [
+      { text: "Ek Villain", isCorrect: true },
+      { text: "Aashiqui 2", isCorrect: false },
+      { text: "Roy", isCorrect: false },
+      { text: "Hamari Adhuri Kahani", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Barfi!*, what disability does Jhilmil have?",
+    options: [
+      { text: "Deafness", isCorrect: false },
+      { text: "Autism", isCorrect: true },
+      { text: "Blindness", isCorrect: false },
+      { text: "Muteness", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Ilahi'*?",
+    options: [
+      { text: "Yeh Jawaani Hai Deewani", isCorrect: true },
+      { text: "Rockstar", isCorrect: false },
+      { text: "Tamasha", isCorrect: false },
+      { text: "Jab Tak Hai Jaan", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Zindagi Na Milegi Dobara*, what extreme sport does Kabir attempt?",
+    options: [
+      { text: "Skydiving", isCorrect: false },
+      { text: "Deep-sea diving", isCorrect: false },
+      { text: "Bull-running", isCorrect: false },
+      { text: "Sky-diving", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which movie features the dialogue *'Apun ka naam Bulla hai, rakhta khaali fulla hai'*?",
+    options: [
+      { text: "Gunda", isCorrect: false },
+      { text: "Andaz Apna Apna", isCorrect: false },
+      { text: "Hera Pheri", isCorrect: true },
+      { text: "Welcome", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Dangal*, how many daughters does Mahavir Singh Phogat have?",
+    options: [
+      { text: "2", isCorrect: false },
+      { text: "3", isCorrect: false },
+      { text: "4", isCorrect: true },
+      { text: "5", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Radha'*?",
+    options: [
+      { text: "Student of the Year", isCorrect: true },
+      { text: "Yeh Jawaani Hai Deewani", isCorrect: false },
+      { text: "Aashiqui 2", isCorrect: false },
+      { text: "2 States", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Badlapur*, what is the name of Varun Dhawan's character?",
+    options: [
+      { text: "Raghu", isCorrect: true },
+      { text: "Vikram", isCorrect: false },
+      { text: "Arjun", isCorrect: false },
+      { text: "Karan", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the dialogue *'Mere paas maa hai'*?",
+    options: [
+      { text: "Deewar", isCorrect: true },
+      { text: "Sholay", isCorrect: false },
+      { text: "Zanjeer", isCorrect: false },
+      { text: "Don", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Piku*, what profession does Piku (Deepika Padukone) have?",
+    options: [
+      { text: "Doctor", isCorrect: false },
+      { text: "Architect", isCorrect: true },
+      { text: "Journalist", isCorrect: false },
+      { text: "Lawyer", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Gerua'*?",
+    options: [
+      { text: "Dilwale", isCorrect: true },
+      { text: "Chennai Express", isCorrect: false },
+      { text: "Happy New Year", isCorrect: false },
+      { text: "Jab Tak Hai Jaan", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Kapoor & Sons*, what is the name of the grandfather played by Rishi Kapoor?",
+    options: [
+      { text: "Amar Kapoor", isCorrect: false },
+      { text: "Raj Kapoor", isCorrect: false },
+      { text: "Dadu Kapoor", isCorrect: false },
+      { text: "Amrish Kapoor", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which movie features the dialogue *'Life mein kuch banna hai toh Katrina Kaif ke saath dance karo'*?",
+    options: [
+      { text: "Singh Is Kinng", isCorrect: false },
+      { text: "Namastey London", isCorrect: false },
+      { text: "Partner", isCorrect: true },
+      { text: "Welcome", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Raanjhanaa*, which city does the story primarily take place in?",
+    options: [
+      { text: "Varanasi", isCorrect: true },
+      { text: "Delhi", isCorrect: false },
+      { text: "Lucknow", isCorrect: false },
+      { text: "Allahabad", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features the song *'Tum Hi Ho'*?",
+    options: [
+      { text: "Aashiqui 2", isCorrect: true },
+      { text: "Ek Villain", isCorrect: false },
+      { text: "Hamari Adhuri Kahani", isCorrect: false },
+      { text: "Rockstar", isCorrect: false },
+    ],
+  },
 ];
 console.log(questions.length);
 
