@@ -21,7 +21,7 @@ const questions = [
   {
     question: "In *3 Idiots*, what was Rancho’s real name in the movie?",
     options: [
-      { text: "Raju Rastogi", isCorrect: false },
+      { text: "Ranchoddas Shamaldas Chanchad", isCorrect: false },
       { text: "Chatur Ramalingam", isCorrect: false },
       { text: "Phunsukh Wangdu", isCorrect: true },
       { text: "Farhan Qureshi", isCorrect: false },
@@ -49,7 +49,7 @@ const questions = [
     question:
       "In *Andaz Apna Apna*, what were Aamir and Salman's character names?",
     options: [
-      { text: "Prem & Amar", isCorrect: false },
+      { text: "Vicky & Arjun", isCorrect: false },
       { text: "Bunty & Babli", isCorrect: false },
       { text: "Raj & Rahul", isCorrect: false },
       { text: "Amar & Prem", isCorrect: true },
@@ -58,7 +58,7 @@ const questions = [
   {
     question: "What does the *Bhaag Milkha Bhaag* movie revolve around?",
     options: [
-      { text: "A marathon runner", isCorrect: false },
+      { text: "A footballer", isCorrect: false },
       { text: "Milkha Singh’s life", isCorrect: true },
       { text: "An army officer", isCorrect: false },
       { text: "A cycling champion", isCorrect: false },
@@ -89,7 +89,7 @@ const questions = [
       { text: "Gunda", isCorrect: false },
       { text: "Deshdrohi", isCorrect: false },
       { text: "Bhootnath", isCorrect: false },
-      { text: "Dhoom 5", isCorrect: true },
+      { text: "Race 4", isCorrect: true },
     ],
   },
   {
@@ -117,9 +117,9 @@ const questions = [
       "In *Sanam Teri Kasam*, what is the profession of Harshvardhan Rane’s character?",
     options: [
       { text: "Doctor", isCorrect: false },
-      { text: "Lawyer", isCorrect: false },
+      { text: "Lawyer", isCorrect: true },
       { text: "Musician", isCorrect: false },
-      { text: "Writer", isCorrect: true },
+      { text: "Writer", isCorrect: false },
     ],
   },
   {
@@ -138,8 +138,8 @@ const questions = [
       "Which Amitabh Bachchan movie features the iconic dialogue *'Rishtey Mein Toh Hum Tumhare Baap Lagte Hain'*?",
     options: [
       { text: "Deewaar", isCorrect: false },
-      { text: "Sholay", isCorrect: false },
-      { text: "Agneepath", isCorrect: true },
+      { text: "Sholay", isCorrect: true },
+      { text: "Agneepath", isCorrect: false },
       { text: "Shahenshah", isCorrect: false },
     ],
   },
@@ -169,6 +169,106 @@ const questions = [
       { text: "Johnny Lever", isCorrect: false },
       { text: "Paresh Rawal", isCorrect: false },
       { text: "Shakti Kapoor", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Rajesh Khanna movie features the dialogue 'Pushpa, I hate tears'?",
+    options: [
+      { text: "Anand", isCorrect: false },
+      { text: "Kati Patang", isCorrect: true },
+      { text: "Amar Prem", isCorrect: false },
+      { text: "Bawarchi", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In which Amitabh Bachchan movie does he say, 'Aaj mere paas gaadi hai, bungla hai, paisa hai, tumhare paas kya hai?'",
+    options: [
+      { text: "Deewar", isCorrect: true },
+      { text: "Sholay", isCorrect: false },
+      { text: "Zanjeer", isCorrect: false },
+      { text: "Trishul", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Shah Rukh Khan movie features the iconic dialogue 'Bade bade deshon mein aisi choti choti baatein hoti rehti hain'?",
+    options: [
+      { text: "Dilwale Dulhania Le Jayenge", isCorrect: true },
+      { text: "Kabhi Khushi Kabhie Gham", isCorrect: false },
+      { text: "Kuch Kuch Hota Hai", isCorrect: false },
+      { text: "Mohabbatein", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Salman Khan movie features the dialogue 'Ek baar jo maine commitment kar di, toh phir main apne aap ki bhi nahi sunta'?",
+    options: [
+      { text: "Wanted", isCorrect: true },
+      { text: "Kick", isCorrect: false },
+      { text: "Dabangg", isCorrect: false },
+      { text: "Bodyguard", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Sanjay Dutt movie features the famous dialogue 'Munnabhai MBBS, bole toh lapata'?",
+    options: [
+      { text: "Munna Bhai M.B.B.S.", isCorrect: true },
+      { text: "Lage Raho Munna Bhai", isCorrect: false },
+      { text: "Vaastav", isCorrect: false },
+      { text: "Khalnayak", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Rajesh Khanna movie features the dialogue 'Zindagi badi honi chahiye, lambi nahi'?",
+    options: [
+      { text: "Anand", isCorrect: true },
+      { text: "Safar", isCorrect: false },
+      { text: "Bawarchi", isCorrect: false },
+      { text: "Kati Patang", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In which Amitabh Bachchan movie does he say, 'Hum jahan khade hote hain, line wahin se shuru hoti hai'?",
+    options: [
+      { text: "Kaalia", isCorrect: true },
+      { text: "Shahenshah", isCorrect: false },
+      { text: "Don", isCorrect: false },
+      { text: "Coolie", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Shah Rukh Khan movie features the dialogue 'Naam toh suna hoga'?",
+    options: [
+      { text: "Dil To Pagal Hai", isCorrect: false },
+      { text: "Baazigar", isCorrect: false },
+      { text: "Dilwale Dulhania Le Jayenge", isCorrect: false },
+      { text: "Dil To Pagal Hai", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which Salman Khan movie features the dialogue 'Mujh par ek ehsaan karna ki mujh par koi ehsaan mat karna'?",
+    options: [
+      { text: "Bodyguard", isCorrect: true },
+      { text: "Sultan", isCorrect: false },
+      { text: "Bajrangi Bhaijaan", isCorrect: false },
+      { text: "Dabangg", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Sanjay Dutt movie features the dialogue 'Mumbai ka king kaun? Bhiku Mhatre!'?",
+    options: [
+      { text: "Satya", isCorrect: true },
+      { text: "Vaastav", isCorrect: false },
+      { text: "Khalnayak", isCorrect: false },
+      { text: "Shootout at Lokhandwala", isCorrect: false },
     ],
   },
   {
@@ -504,6 +604,380 @@ const questions = [
       { text: "Mohabbatein", isCorrect: true },
     ],
   },
+  {
+    question:
+      "Which movie revolves around a terminally ill patient named Anand, who spreads joy despite his illness?",
+    options: [
+      { text: "Anand", isCorrect: true },
+      { text: "Bawarchi", isCorrect: false },
+      { text: "Mili", isCorrect: false },
+      { text: "Safar", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In which movie does Amitabh Bachchan play a vigilante who wears a steel arm and fights against corruption?",
+    options: [
+      { text: "Shahenshah", isCorrect: true },
+      { text: "Coolie", isCorrect: false },
+      { text: "Zanjeer", isCorrect: false },
+      { text: "Kaalia", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Govinda movie features him as a lawyer who falls in love with a ghost?",
+    options: [
+      { text: "Jis Desh Mein Ganga Rehta Hai", isCorrect: false },
+      { text: "Hatya", isCorrect: false },
+      { text: "Aunty No. 1", isCorrect: false },
+      { text: "Chhote Sarkar", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood thriller follows the story of a blind pianist who accidentally witnesses a murder?",
+    options: [
+      { text: "Andhadhun", isCorrect: true },
+      { text: "Badla", isCorrect: false },
+      { text: "Talaash", isCorrect: false },
+      { text: "Kahaani", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In which movie does Shah Rukh Khan play a NASA scientist who returns to India to find his childhood nanny?",
+    options: [
+      { text: "Swades", isCorrect: true },
+      { text: "Chak De! India", isCorrect: false },
+      { text: "My Name is Khan", isCorrect: false },
+      { text: "Kabhi Alvida Naa Kehna", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Salman Khan movie is about a wrestler who battles personal and professional struggles?",
+    options: [
+      { text: "Sultan", isCorrect: true },
+      { text: "Tiger Zinda Hai", isCorrect: false },
+      { text: "Bajrangi Bhaijaan", isCorrect: false },
+      { text: "Kick", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood thriller follows Vidya Balan as she searches for her missing husband in Kolkata?",
+    options: [
+      { text: "Kahaani", isCorrect: true },
+      { text: "Raaz", isCorrect: false },
+      { text: "Murder 2", isCorrect: false },
+      { text: "A Wednesday!", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which movie is about a group of friends who reunite and reflect on their lives after one of them dies?",
+    options: [
+      { text: "Rock On!!", isCorrect: false },
+      { text: "Dil Chahta Hai", isCorrect: true },
+      { text: "Zindagi Na Milegi Dobara", isCorrect: false },
+      { text: "Lakshya", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which movie follows an autistic man’s journey across America to meet the President?",
+    options: [
+      { text: "Taare Zameen Par", isCorrect: false },
+      { text: "My Name is Khan", isCorrect: true },
+      { text: "Barfi!", isCorrect: false },
+      { text: "Black", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Govinda movie is about a man who has a lookalike and they both create chaos in a fun-filled comedy?",
+    options: [
+      { text: "Coolie No. 1", isCorrect: false },
+      { text: "Hero No. 1", isCorrect: false },
+      { text: "Aankhen", isCorrect: true },
+      { text: "Partner", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which thriller movie revolves around a murder investigation where everything is not as it seems, starring Amitabh Bachchan and Taapsee Pannu?",
+    options: [
+      { text: "Pink", isCorrect: false },
+      { text: "Badla", isCorrect: true },
+      { text: "Wazir", isCorrect: false },
+      { text: "Drishyam", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which suspense thriller movie starring Aamir Khan features a police officer investigating the mysterious deaths of musicians?",
+    options: [
+      { text: "Talaash", isCorrect: true },
+      { text: "Ghajini", isCorrect: false },
+      { text: "Dhoom 3", isCorrect: false },
+      { text: "PK", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In which movie does Akshay Kumar play an ex-army officer who avenges the deaths of his loved ones?",
+    options: [
+      { text: "Baby", isCorrect: false },
+      { text: "Holiday", isCorrect: false },
+      { text: "Gabbar is Back", isCorrect: true },
+      { text: "Special 26", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which 90s movie is about a simple village boy who moves to the city and gets caught in a love triangle?",
+    options: [
+      { text: "Raja Hindustani", isCorrect: true },
+      { text: "Dil Hai Ke Manta Nahin", isCorrect: false },
+      { text: "Saajan", isCorrect: false },
+      { text: "Dhadkan", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which movie revolves around a mother taking revenge against a corrupt system after her daughter is wronged?",
+    options: [
+      { text: "Mom", isCorrect: true },
+      { text: "Kahaani 2", isCorrect: false },
+      { text: "Mardaani", isCorrect: false },
+      { text: "No One Killed Jessica", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which 2000s romantic drama is about a love triangle between a struggling musician, a kind-hearted woman, and a famous singer?",
+    options: [
+      { text: "Saajan", isCorrect: false },
+      { text: "Aashiqui 2", isCorrect: true },
+      { text: "Tum Bin", isCorrect: false },
+      { text: "Dil Se", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which 90s Bollywood comedy is about a man who switches places with a rich businessman who looks exactly like him?",
+    options: [
+      { text: "Judwaa", isCorrect: true },
+      { text: "Hera Pheri", isCorrect: false },
+      { text: "Bade Miyan Chote Miyan", isCorrect: false },
+      { text: "Jodi No. 1", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which film features a ghost who wants to marry the protagonist?",
+    options: [
+      { text: "Phillauri", isCorrect: true },
+      { text: "Raaz", isCorrect: false },
+      { text: "Tumbbad", isCorrect: false },
+      { text: "Pari", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Hera Pheri*, what is the amount of ransom demanded by the kidnappers?",
+    options: [
+      { text: "10 lakh", isCorrect: false },
+      { text: "1 crore", isCorrect: false },
+      { text: "50 lakh", isCorrect: false },
+      { text: "2 crore", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood horror film is based on the true story of a haunted ship?",
+    options: [
+      { text: "Bhoot Part One: The Haunted Ship", isCorrect: true },
+      { text: "Raaz", isCorrect: false },
+      { text: "1920", isCorrect: false },
+      { text: "Haunted 3D", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood movie revolves around a treasure hidden in a haunted village?",
+    options: [
+      { text: "Tumbbad", isCorrect: true },
+      { text: "Bhool Bhulaiyaa", isCorrect: false },
+      { text: "Stree", isCorrect: false },
+      { text: "Ragini MMS", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Chup*, what is the serial killer's main target?",
+    options: [
+      { text: "Actors", isCorrect: false },
+      { text: "Food critics", isCorrect: false },
+      { text: "Film critics", isCorrect: true },
+      { text: "Journalists", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which movie features a delivery man who turns into a gangster?",
+    options: [
+      { text: "Mumbai Meri Jaan", isCorrect: false },
+      { text: "Once Upon a Time in Mumbaai", isCorrect: false },
+      { text: "Rakta Charitra", isCorrect: false },
+      { text: "Jigarthanda DoubleX", isCorrect: true },
+    ],
+  },
+  {
+    question: "In *Bajrangi Bhaijaan*, where does Munni belong?",
+    options: [
+      { text: "Pakistan", isCorrect: true },
+      { text: "Bangladesh", isCorrect: false },
+      { text: "Afghanistan", isCorrect: false },
+      { text: "Nepal", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood film revolves around a game of luck played at night in Mumbai?",
+    options: [
+      { text: "Teen Patti", isCorrect: true },
+      { text: "Jannat", isCorrect: false },
+      { text: "Bluffmaster", isCorrect: false },
+      { text: "Table No. 21", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which film has a character who scams people by pretending to be multiple fake brides?",
+    options: [
+      { text: "Dolly Ki Doli", isCorrect: true },
+      { text: "Ladies vs Ricky Bahl", isCorrect: false },
+      { text: "Fraud Saiyaan", isCorrect: false },
+      { text: "Band Baaja Baaraat", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Bunty Aur Babli*, what is the biggest scam pulled off by the duo?",
+    options: [
+      { text: "Selling the Taj Mahal", isCorrect: true },
+      { text: "Scamming Bollywood producers", isCorrect: false },
+      { text: "Robbing a Swiss bank", isCorrect: false },
+      { text: "Cheating a billionaire", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *Tumbbad*, what is the horrifying secret hidden beneath the village temple?",
+    options: [
+      { text: "A treasure guarded by a cursed deity", isCorrect: true },
+      { text: "A portal to the underworld", isCorrect: false },
+      { text: "A family of immortal witches", isCorrect: false },
+      { text: "A sleeping demon that awakens every century", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "In *12th Fail* (2023), what drives the protagonist to keep trying despite repeated failures?",
+    options: [
+      { text: "His family's unfulfilled dreams", isCorrect: false },
+      { text: "His desire to prove corrupt officials wrong", isCorrect: true },
+      { text: "A secret bet he made with a friend", isCorrect: false },
+      { text: "A prophecy that he will be successful", isCorrect: false },
+    ],
+  },
+  {
+    question: "In *Karthik Calling Karthik*, what is the shocking twist?",
+    options: [
+      { text: "Karthik has a twin", isCorrect: false },
+      { text: "Karthik is hearing his own voice", isCorrect: true },
+      { text: "Karthik is being blackmailed", isCorrect: false },
+      { text: "Karthik is a ghost", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood movie is about a blind pianist who witnesses a murder?",
+    options: [
+      { text: "Andhadhun", isCorrect: true },
+      { text: "Black", isCorrect: false },
+      { text: "Kaabil", isCorrect: false },
+      { text: "Gupt", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which Bollywood film is about a mathematician’s struggle against the system?",
+    options: [
+      { text: "Super 30", isCorrect: true },
+      { text: "Airlift", isCorrect: false },
+      { text: "Article 15", isCorrect: false },
+      { text: "Shiksha Mandal", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which movie features a criminal who repeatedly escapes from the police using disguises?",
+    options: [
+      { text: "Baazigar", isCorrect: false },
+      { text: "Ladies vs Ricky Bahl", isCorrect: false },
+      { text: "Bunty Aur Babli", isCorrect: false },
+      { text: "Guddu Rangeela", isCorrect: true },
+    ],
+  },
+  {
+    question: "In *Monica, O My Darling*, what is the major twist?",
+    options: [
+      { text: "The killer is the protagonist’s friend", isCorrect: false },
+      { text: "Monica was never dead", isCorrect: true },
+      { text: "The whole movie is a dream", isCorrect: false },
+      { text: "The protagonist planned everything", isCorrect: false },
+    ],
+  },
+  {
+    question: "Which recent Bollywood film is based on a deadly survival game?",
+    options: [
+      { text: "Chor Nikal Ke Bhaga", isCorrect: false },
+      { text: "Kuttey", isCorrect: false },
+      { text: "Game Over", isCorrect: false },
+      { text: "Escape Live", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "Which movie features a man who gets rich by faking his own death multiple times?",
+    options: [
+      { text: "Lootcase", isCorrect: false },
+      { text: "102 Not Out", isCorrect: false },
+      { text: "Bholaa", isCorrect: false },
+      { text: "Kaun Pravin Tambe?", isCorrect: true },
+    ],
+  },
+  {
+    question:
+      "In *Drishyam 2*, what unexpected evidence leads to the case reopening?",
+    options: [
+      { text: "A confession video", isCorrect: true },
+      { text: "A hidden witness", isCorrect: false },
+      { text: "A forensic report", isCorrect: false },
+      { text: "A missing phone", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "Which horror-comedy film is based on a true folklore about a town where men disappear?",
+    options: [
+      { text: "Stree", isCorrect: true },
+      { text: "Roohi", isCorrect: false },
+      { text: "Bhool Bhulaiyaa 2", isCorrect: false },
+      { text: "Bhoot Police", isCorrect: false },
+    ],
+  },
 ];
+console.log(questions.length);
 
 export default questions;
